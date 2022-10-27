@@ -1,17 +1,185 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    font-size: 100px;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-  }
+body {
+
+margin: 0;
+
+margin-top: 75px;
+
+font-family: sans-serif;
+
+}
+
+header {
+
+display: flex;
+
+position: fixed;
+
+top: 0;
+
+left: 0;
+
+right: 0;
+
+height: 100px;
+
+line-height: 50px;
+
+background-color: rgb(214, 33, 33);
+
+}
+
+ 
+
+header * {
+
+display: inline;
+
+height: 75px;
+
+}
+
+ 
+
+headerul {
+
+padding: 0;
+
+}
+
+ 
+
+header li {
+
+margin-left: 20px;
+
+}
+
+ 
+
+section {
+
+height: 100vh;
+
+border: 1px solid black;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+text-align: center;
+
+ 
+
+
+
+}
+
+ 
+
+#hero .profile-img {
+
+width: 300px;
+
+border-radius: 50%;
+
+}
+
+ 
+
+footer {
+
+text-align: center;
+
+padding: 50px;
+
+}
+
+ 
+
+#hero h1 {
+
+font-size: 1.5em;
+
+}
+
+ 
+
+section h2 {
+
+font-size: 1.5em;
+
+}
+
+ 
+
+section h3 {
+
+font-size: 1.5em;
+
+}
+
+ 
+
+header a {
+
+text-decoration: none;
+
+color: black;
+
+}
+
+
+#hero {
+
+  background-color:red
+
+}
+
+ 
+
+#about {
+
+  background-color:red
+
+}
+
+ 
+
+#contact {
+
+  background-color:red
+    
+
+}
+
+input[type=text], select, textarea {
+  width: 25%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #dc1515;
+  padding: 20px;
+}
